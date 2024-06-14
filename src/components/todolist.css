@@ -1,0 +1,72 @@
+.container {
+  max-width: 400px;
+  margin: 95px;
+  padding: 20px;
+  margin-left: 518px;
+  background-color:darkgray;
+  border: 100px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 95px;
+  border-radius: 30px;
+  position: relative;
+  height:auto;
+  width: 900px;
+            height: 500px;
+            border: 1px solid;
+  overflow:scroll;
+}
+
+input[type="text"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 100px;
+}
+
+button {
+  background-color:rosybrown;
+  color: white;
+  padding: 9px 15px;
+  border-radius: 8px;
+  border-radius: color black;
+
+  
+}
+input[type="text"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-left: 10px;
+ margin-right: 19px;
+  border-radius: 100px;
+}
+
+ul {
+  max-width: 700px;
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  margin-left:10px;
+}
+
+li span {
+  flex-grow: 2;
+  cursor: pointer;
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.todo-extra-container {
+  background-image: url("C:\Users\LENOVO\todolist\backimage.jpeg");
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position:center;
+}
