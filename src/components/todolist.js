@@ -57,7 +57,7 @@ const TodoList = () => {
     <div className="todo-extra-container">
     <div className="container">
    
-      <h2><i>Todo List</i></h2>
+      <h1><i>Todo List</i></h1>
       <input
         type="text"
         placeholder="Add a task..."
