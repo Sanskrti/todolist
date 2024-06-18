@@ -19,15 +19,15 @@
 
 input[type="text"] {
   width: calc(100% - 20px);
-  padding: 10px;
+  padding: 5px;
   margin-bottom: 10px;
   border-radius: 100px;
 }
 
 button {
-  background-color:rosybrown;
+  background-color:royalblue;
   color: white;
-  padding: 9px 15px;
+  padding: 9px 10px;
   border-radius: 8px;
   border-radius: color black;
 
@@ -35,16 +35,18 @@ button {
 }
 input[type="text"] {
   width: calc(100% - 20px);
-  padding: 10px;
+  padding: 5px;
   margin-left: 10px;
- margin-right: 19px;
+  margin-right: 19px;
   border-radius: 100px;
 }
 
 ul {
   max-width: 700px;
   list-style-type: none;
-  padding: 0;
+  padding: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 li {
@@ -52,7 +54,7 @@ li {
   display: flex;
   align-items: center;
   padding: 5px;
-  margin-left:10px;
+  margin-left:5px;
 }
 
 li span {
@@ -62,6 +64,7 @@ li span {
   margin-left: 10px;
   margin-right: 10px;
 }
+
 .todo-extra-container {
   background-image: url("C:\Users\LENOVO\todolist\backimage.jpeg");
   position: fixed;

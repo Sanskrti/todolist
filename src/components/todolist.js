@@ -1,14 +1,9 @@
 import React from "react";
 import s from './todolist.css';
 import react , { useState } from 'react';
-import { Button, TextField, Container, List, ListItem, ListItemText, IconButton } from '@material-ui/core';
-import { Delete, Add, Edit, EditLocation } from '@material-ui/icons';
-import DeleteIcon from '@material-ui/icons/Delete';  // Import the Delete icon
-import AddIcon from '@material-ui/icons/Add';        // Import the Add icon
+import DeleteIcon from '@material-ui/icons/Delete';  
+import AddIcon from '@material-ui/icons/Add';        
 import CreateIcon from '@material-ui/icons/Create';
-
-
-
 const TodoList = () => {
   const [tasks, setTasks] = useState([]);
   const [inputValue, setInputValue] = useState('');
@@ -17,7 +12,7 @@ const TodoList = () => {
 
   const handleInputChange = (event) => {
     setInputValue(event.target.value);
-  };
+    };
 
   const handleAddTask = () => {
     if (inputValue.trim() !== '') {
