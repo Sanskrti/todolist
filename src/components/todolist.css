@@ -26,12 +26,12 @@ input[type="text"] {
 }
 
 button {
-  background-color:royalblue;
+  background-color:palevioletred;
   color: white;
   padding: 9px 10px;
   border-radius: 8px;
   border-radius: color black;
-  margin-right: 12px;
+  margin-right: 10px;
 }
 
 input[type="text"] {
